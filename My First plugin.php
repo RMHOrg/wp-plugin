@@ -12,10 +12,13 @@ defined('ABSPATH') || die ("You can't access this file directly");// for protect
 
 register_activation_hook(__FILE__,"First_plg_activation");// for activate this plugin this is a function which have 2 parameters(file path , funtion name/define function)
 register_deactivation_hook(__FILE__,"First_plg_deactivation");// for deactivate this plugin this is a function which have 2 parameters(file path , funtion name/define function)
-register_uninstall_hook(__FILE__,"First_plg_uninstall");// for uninstall this plugin this is a function which have 2 parameters(file path , funtion name/define function)
+//register_uninstall_hook(__FILE__,"First_plg_uninstall");// for uninstall this plugin this is a function which have 2 parameters(file path , funtion name/define function)
+
 //there is activation plugin function that tells about what to do this plugin actually?
 function First_plg_activation(){}
+
 //there is deactivation plugin function detailed script
 function First_plg_deactivation(){}
+
 //there is uninstall plugin function detailed script
-function First_plg_uninstall(){}
+//function First_plg_uninstall(){}
