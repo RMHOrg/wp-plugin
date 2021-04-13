@@ -14,3 +14,8 @@ register_activation_hook(__FILE__,"First_plg_activation");
 register_deactivation_hook(__FILE__,"First_plg_deactivation");
 register_uninstall_hook(__FILE__,"First_plg_uninstall");
 
+function First_plg_activation(){}
+
+function First_plg_deactivation(){}
+
+function First_plg_uninstall(){}
