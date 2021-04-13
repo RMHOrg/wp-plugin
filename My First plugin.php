@@ -8,11 +8,11 @@
 * Description: This is for just testing purpose of plugins by using php.
 **/
 
-defined('ABSPATH') || die ("You can't access this file directly");
+defined('ABSPATH') || die ("You can't access this file directly");// for protection from directly access through URL in browser.
 
-register_activation_hook(__FILE__,"First_plg_activation");
-register_deactivation_hook(__FILE__,"First_plg_deactivation");
-register_uninstall_hook(__FILE__,"First_plg_uninstall");
+register_activation_hook(__FILE__,"First_plg_activation");// for activate this plugin this is a function which have 2 parameters(file path , funtion name/define function)
+register_deactivation_hook(__FILE__,"First_plg_deactivation");// for deactivate this plugin this is a function which have 2 parameters(file path , funtion name/define function)
+register_uninstall_hook(__FILE__,"First_plg_uninstall");// for uninstall this plugin this is a function which have 2 parameters(file path , funtion name/define function)
 
 function First_plg_activation(){}
 
