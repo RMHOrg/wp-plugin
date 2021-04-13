@@ -10,7 +10,7 @@
 
 defined('ABSPATH') || die ("You can't access this file directly");
 
-register_activation_hook(__FILE__,"First_plg_activation")
-register_deactivation_hook(__FILE__,"First_plg_deactivation")
-register_uninstall_hook(__FILE__,"First_plg_uninstall")  
+register_activation_hook(__FILE__,"First_plg_activation");
+register_deactivation_hook(__FILE__,"First_plg_deactivation");
+register_uninstall_hook(__FILE__,"First_plg_uninstall");
 
